@@ -14,9 +14,9 @@ namespace gl {
             : m_draw(draw) {}
 
         void setup() override final {
-            m_gradient_shader.from_file("res/circle.glsl");
+            m_gradient_shader.from_file("res/gradient.glsl");
             m_verticies.set_layout(math::vector_layout<float, 2>() +
-                                   math::vector_layout<float, 4>());
+                                   math::vector_layout<float, 3>());
         }
 
         void draw()  override final {
@@ -26,17 +26,6 @@ namespace gl {
             m_draw(draw_mgr);
 
             m_verticies.update();
-
-            // TODO: Extreme cringe, move somewhere else
-            static math::vec3 light = { 1.0f, 1.0f, 1.0f };
-            m_gradient_shader.uniform("light_source", light);
-
-            math::vec2 lightXZ = { light.x(), light.z() };
-            lightXZ.rotate(0.005f);
-
-            light.x() = lightXZ.x();
-            light.z() = lightXZ.y();
-
             gl::draw(gl::drawing_type::TRIANGLES, m_verticies, m_gradient_shader);
         }
 

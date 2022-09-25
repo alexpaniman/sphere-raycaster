@@ -6,22 +6,6 @@
 
 using math::vec;
 
-class gpu_circle_raycaster: public gl::simple_drawing_window {
-public:
-    using gl::simple_drawing_window::simple_drawing_window;
-
-    void loop_draw(gl::drawing_manager &mgr) override {
-        mgr.set_color({ 1.0f, 1.0f, 1.0f });
-
-        mgr.draw_triangle({ -1.0f, 1.0f }, {  1.0f,  1.0f }, { 1.0f, -1.0f });
-        mgr.draw_triangle({ -1.0f, 1.0f }, { -1.0f, -1.0f }, { 1.0f, -1.0f });
-    }
-
-    void on_fps_updated() override {
-        std::cout << "FPS: " << get_fps() << std::endl;
-    }
-};
-
 struct light_source {
     math::vec3 color;
     math::vec3 position;
@@ -101,6 +85,6 @@ private:
 };
 
 int main() {
-    gpu_circle_raycaster drawer(1080 / 2, 1080 / 2, "My vector drawer!");
+    cpu_circle_raycaster drawer(1080, 1080, "My vector drawer!");
     drawer.draw_loop();
 }
