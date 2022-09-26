@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstddef>
+#include <type_traits>
 
 namespace math {
 
@@ -12,6 +13,17 @@ namespace math {
         return power % 2 == 0?
               pow(value * value, power / 2)
             : value * pow(value, power - 1);
+    }
+
+    template <typename type>
+    constexpr type clamp(type value, std::type_identity_t<type> min, std::type_identity_t<type> max) {
+        if (value < min)
+            return min;
+
+        if (value > max)
+            return max;
+
+        return value;
     }
 
 }
