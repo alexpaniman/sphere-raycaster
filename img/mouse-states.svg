@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="mouse-states.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="45.254834"
+     inkscape:cx="36.703261"
+     inkscape:cy="106.29804"
+     inkscape:window-width="3440"
+     inkscape:window-height="1440"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow4"
+       markerWidth="5"
+       markerHeight="6"
+       viewBox="0 0 5 6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path1741" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect234"
+       width="16.883602"
+       height="12.049768"
+       x="12.815607"
+       y="6.2156839"
+       ry="0.0065370272" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none"
+       id="path952"
+       cx="15.668876"
+       cy="8.1924992"
+       r="0.23988235" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow4)"
+       d="m 15.668876,8.192499 c 0,0 0.112208,-1.2095409 1.483108,-1.1924311"
+       id="path1019" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none"
+       id="circle1236"
+       cx="17.391867"
+       cy="7.0000677"
+       r="0.23988235" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.598388px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="16.196537"
+       y="8.0871773"
+       id="text1294"><tspan
+         sodipodi:role="line"
+         id="tspan1292"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.0897582"
+         x="16.196537"
+         y="8.0871773">DRAG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.423334px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="11.195071"
+       y="28.934736"
+       id="text1352"><tspan
+         sodipodi:role="line"
+         id="tspan1350"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.423334px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.0897582"
+         x="11.195071"
+         y="28.934736">DRAG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.598388px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="5.8158841"
+       y="11.323888"
+       id="text1363"><tspan
+         sodipodi:role="line"
+         id="tspan1361"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="5.8158841"
+         y="11.323888">CLICK</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1373"
+       cx="6.4701252"
+       cy="13.765941"
+       r="1.1421705" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.05;stroke-dasharray:none"
+       x="7.9441423"
+       y="29.17861"
+       id="text1377"><tspan
+         sodipodi:role="line"
+         id="tspan1375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="7.9441423"
+         y="29.17861">PRESS</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1384"
+       cx="3.0108247"
+       cy="17.098778"
+       r="1.4912686" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.598388px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="1.7206074"
+       y="17.31159"
+       id="text1388"><tspan
+         sodipodi:role="line"
+         id="tspan1386"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="1.7206074"
+         y="17.31159">RELEASE</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1427"
+       cx="6.4681692"
+       cy="17.7624"
+       r="0.75263035" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="10.390327"
+       y="30.637857"
+       id="text1454"><tspan
+         sodipodi:role="line"
+         id="tspan1452"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="10.390327"
+         y="30.637857">MOVE</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1464"
+       cx="9.1798229"
+       cy="16.536446"
+       r="0.75263035" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.598388px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="8.8045263"
+       y="16.749104"
+       id="text1468"><tspan
+         sodipodi:role="line"
+         id="tspan1466"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="8.8045263"
+         y="16.749104">IN</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 6.4932911,14.906038 c 0,0 0.125054,0.416623 -0.09955,0.802725 -0.3119631,0.536275 0.3015271,0.579875 0.09955,1.291267"
+       id="path1490"
+       sodipodi:nodetypes="csc" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1672"
+       cx="8.9010143"
+       cy="27.298891"
+       r="0.75263035" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1680"
+       cx="8.9010143"
+       cy="31.003057"
+       r="0.75263035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 9.6536447,31.003057 c 0,0 1.8830643,0.160403 2.1498943,-1.263341"
+       id="path1684"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1692"
+       cx="11.788586"
+       cy="28.958765"
+       r="0.75263035" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.319679px;line-height:1.25;font-family:sans-serif;stroke-width:0.0677806"
+       x="8.2165813"
+       y="31.117182"
+       id="text1696"><tspan
+         sodipodi:role="line"
+         id="tspan1694"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.319679px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.0677806"
+         x="8.2165813"
+         y="31.117182">PRESSED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.319679px;line-height:1.25;font-family:sans-serif;stroke-width:0.0677806"
+       x="11.104153"
+       y="29.223711"
+       id="text1700"><tspan
+         sodipodi:role="line"
+         id="tspan1698"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.319679px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.0677806"
+         x="11.104153"
+         y="29.223711">PRESSED</tspan></text>
+    <g
+       id="g1206">
+      <path
+         id="circle1769"
+         style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Arrow4)"
+         d="m 12.264188,28.362806 c 0.06055,-0.225967 0.292813,-0.360067 0.518781,-0.299518 0.225967,0.06055 0.360067,0.292812 0.299518,0.518781 -0.06055,0.225968 -0.292812,0.360067 -0.51878,0.299519"
+         sodipodi:nodetypes="cssc" />
+      <text
+         xml:space="preserve"
+         style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+         x="13.175801"
+         y="28.317915"
+         id="text1786"><tspan
+           sodipodi:role="line"
+           id="tspan1784"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+           x="13.175801"
+           y="28.317915">MOVE</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 8.9010143,28.051522 c 0,0.730914 0,1.586683 0,2.1741"
+       id="path1800"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.357139px;line-height:0.85;font-family:sans-serif;stroke-width:0.0757231"
+       x="8.9072456"
+       y="27.20289"
+       id="text1804"><tspan
+         sodipodi:role="line"
+         id="tspan1802"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.357139px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.0757231"
+         x="8.9072456"
+         y="27.20289">NO</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.357139px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.0757231"
+         x="8.9072456"
+         y="27.506458"
+         id="tspan1806">ACTION</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:0.5271576,0.0658947;stroke-opacity:1;stroke-dashoffset:0.1976841"
+       id="circle1808"
+       cx="11.788586"
+       cy="26.8421"
+       r="0.75263035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="M 11.788585,28.206134 V 27.614393"
+       id="path1810"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.423334px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="11.195071"
+       y="26.993231"
+       id="text1822"><tspan
+         sodipodi:role="line"
+         id="tspan1820"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.423334px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.0897582"
+         x="11.195071"
+         y="26.993231">DRAG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.05;stroke-dasharray:none"
+       x="7.5574203"
+       y="29.988834"
+       id="text1826"><tspan
+         sodipodi:role="line"
+         id="tspan1824"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="7.5574203"
+         y="29.988834">RELEASE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 11.035955,26.842099 c 0,0 -0.294836,0.05329 -0.615972,0.277032 -0.196884,0.137176 -0.419524,0.268482 -0.7211769,0.268482"
+       id="path1828"
+       sodipodi:nodetypes="csc" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1864"
+       cx="8.9010143"
+       cy="25.182224"
+       r="0.75263035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 8.9010143,25.934857 c 0,0.228161 0,0.388938 0,0.588667"
+       id="path1868"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.357139px;line-height:0.85;font-family:sans-serif;stroke-width:0.0757231"
+       x="8.9081755"
+       y="25.309723"
+       id="text1884"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.357139px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.0757231"
+         x="8.9081755"
+         y="25.309723"
+         id="tspan1882">START</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:0.5271576,0.0658947;stroke-opacity:1;stroke-dashoffset:0.23063145"
+       id="circle1888"
+       cx="6.4969192"
+       cy="28.429598"
+       r="0.75263035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 8.1483839,31.003056 c -0.7717498,0 -0.325241,-1.19725 -1.1656107,-1.958465"
+       id="path1890"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.451939px;line-height:1.25;font-family:sans-serif;stroke-width:0.0958233"
+       x="5.8303094"
+       y="28.59094"
+       id="text1912"><tspan
+         sodipodi:role="line"
+         id="tspan1910"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.451939px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.0958233"
+         x="5.8303094"
+         y="28.59094">CLICK</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 6.9689941,27.843425 c 0,0 0.3009179,-0.544533 1.150451,-0.544533"
+       id="path1918"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:0.85;font-family:sans-serif;stroke-width:0.05;stroke-dasharray:none"
+       x="9.5285168"
+       y="29.323534"
+       id="text1932"><tspan
+         sodipodi:role="line"
+         id="tspan1930"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="9.5285168"
+         y="29.323534">RELEASE</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="9.5285168"
+         y="29.573265"
+         id="tspan2016">INSIDE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:0.85;font-family:sans-serif;stroke-width:0.05;stroke-dasharray:none"
+       x="10.399632"
+       y="27.890837"
+       id="text2022"><tspan
+         sodipodi:role="line"
+         id="tspan2018"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="10.399632"
+         y="27.890837">RELEASE</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="10.399632"
+         y="28.14057"
+         id="tspan2020">OUTSIDE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 11.035955,28.958765 c -0.338299,0 -0.805891,-0.01125 -1.1970158,-0.258015 C 9.4523677,28.456859 9.0582658,28.429598 8.9010143,28.429598 l -1.6280788,-10e-7"
+       id="path2114"
+       sodipodi:nodetypes="cssc" />
+    <g
+       id="g464"
+       transform="translate(0,1.0583333)">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0658947;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2260"
+         cx="6.4969192"
+         cy="25.254601"
+         r="0.75263035" />
+      <text
+         xml:space="preserve"
+         style="font-size:0.363543px;line-height:1.25;font-family:sans-serif;stroke-width:0.077081"
+         x="5.8587198"
+         y="25.384567"
+         id="text2264"><tspan
+           sodipodi:role="line"
+           id="tspan2262"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.363543px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.077081"
+           x="5.8587198"
+           y="25.384567">HOVER</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 8.3644982,26.771063 c 0,0 -0.4291011,-0.458129 -1.0915627,-0.458129"
+       id="path529"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="7.7732964"
+       y="26.340927"
+       id="text1197"><tspan
+         sodipodi:role="line"
+         id="tspan1195"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="7.7732964"
+         y="26.340927">MOVE</tspan></text>
+    <path
+       id="path1212"
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Arrow4)"
+       d="m 6.6963568,25.57319 c -0.040525,-0.230406 0.1133971,-0.450031 0.3438011,-0.490556 0.2304044,-0.04054 0.4500326,0.113396 0.490557,0.343802 0.040524,0.230406 -0.113397,0.450029 -0.3438001,0.490557"
+       sodipodi:nodetypes="cssc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.0897582"
+       x="6.0720954"
+       y="25.151543"
+       id="text1216"><tspan
+         sodipodi:role="line"
+         id="tspan1214"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.0897582"
+         x="6.0720954"
+         y="25.151543">MOVE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow4)"
+       d="m 6.4969191,27.065565 c -2.09e-5,0.472048 -1.1352326,0.211576 -1.1352326,1.257271 0,1.262448 -0.2635947,2.680221 2.7589264,2.680221"
+       id="path1247"
+       sodipodi:nodetypes="csc" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.282222px;line-height:1.25;font-family:sans-serif;stroke-width:0.05;stroke-dasharray:none"
+       x="4.3677864"
+       y="28.695829"
+       id="text1259"><tspan
+         sodipodi:role="line"
+         id="tspan1257"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.282222px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';baseline-shift:baseline;stroke-width:0.05;stroke-dasharray:none"
+         x="4.3677864"
+         y="28.695829">PRESS</tspan></text>
+  </g>
+</svg>
