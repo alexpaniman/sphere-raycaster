@@ -6,6 +6,7 @@
 #include "vec-layout.h"
 #include "vec.h"
 #include "vertex-vector-array.h"
+#include <cstddef>
 
 namespace gl {
 
@@ -20,11 +21,11 @@ namespace gl {
                                 math::vector_layout<float, 3>());
 
             // Initialize matrix
-            for (int i = 0; i < height; ++ i)
-                for (int j = 0; j < width; ++ j) {
+            for (std::size_t i = 0; i < static_cast<std::size_t>(height); ++ i)
+                for (std::size_t j = 0; j < static_cast<std::size_t>(width); ++ j) {
                     math::vec current_pos {
-                        2 * i / static_cast<float>(height) - 1,
-                        2 * j / static_cast<float>(width)  - 1
+                        static_cast<float>(2 * i) / static_cast<float>(height) - 1.0f,
+                        static_cast<float>(2 * j) / static_cast<float>(width)  - 1.0f
                     };
 
                     vertices.push_back({ current_pos, DEFAULT_COLOR });
@@ -32,8 +33,8 @@ namespace gl {
         }
 
         void draw() override {
-            for (int i = 0; i < height; ++ i)
-                for (int j = 0; j < width; ++ j) {
+            for (std::size_t i = 0; i < static_cast<std::size_t>(height); ++ i)
+                for (std::size_t j = 0; j < static_cast<std::size_t>(width); ++ j) {
                     colored_vertex &current = vertices[i * height + j];
 
                     // Update color:

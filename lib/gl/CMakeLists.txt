@@ -50,4 +50,4 @@ target_include_directories(
     gl PUBLIC
     ${OPENGL_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS})
 
-target_link_libraries(gl PUBLIC ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} glfw)
+target_link_libraries(gl PUBLIC ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} glfw axp)

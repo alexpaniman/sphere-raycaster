@@ -20,6 +20,9 @@ namespace gl {
 
         void set_width(float width);
         void set_axes(math::axes axes);
+        void add_axes(math::axes axes);
+
+        drawing_manager with_applied(math::axes axes);
 
         // ==> Draw shapes:
 
@@ -38,9 +41,11 @@ namespace gl {
     private:
         gl::vertex_vector_array<colored_vertex>& m_vertices;
 
+    public:
         // ==> Current settings:
         math::axes m_axes;
 
+    private:
         math::vec3 m_current_color;
         float m_width;
     };

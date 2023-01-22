@@ -11,16 +11,31 @@ namespace gl {
 
     void drawing_manager::set_axes(math::axes axes) { m_axes = axes; }
 
+    void drawing_manager::add_axes(math::axes axes) {
+        set_axes(axes.apply(m_axes));
+    }
+
+    drawing_manager drawing_manager::with_applied(math::axes axes) {
+        drawing_manager new_mgr = *this;
+        new_mgr.add_axes(axes);
+
+        return new_mgr;
+    }
+
     void drawing_manager::set_width(float width) {
         m_width = width;
     }
 
+    static math::vec2 fix_coordinates(math::vec2 point) { // TODO: improve
+        point.y() = - point.y();
+        return point;
+    }
 
     void drawing_manager::draw_interpolated_triangle(colored_vertex p0, colored_vertex p1, colored_vertex p2) {
         m_vertices.insert(m_vertices.end(), {
-            { m_axes.get_view_coordinates(p0.point), p0.color },
-            { m_axes.get_view_coordinates(p1.point), p1.color },
-            { m_axes.get_view_coordinates(p2.point), p2.color }
+            { fix_coordinates(m_axes.get_view_coordinates(p0.point)), p0.color },
+            { fix_coordinates(m_axes.get_view_coordinates(p1.point)), p1.color },
+            { fix_coordinates(m_axes.get_view_coordinates(p2.point)), p2.color }
         });
     }
 

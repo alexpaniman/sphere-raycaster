@@ -18,6 +18,11 @@ namespace math {
 
         axes(): axes({ -1.0f, -1.0f }, { 1.0f, 1.0f }) {}
 
+        axes apply(axes other_axes) {
+            return { m_world, math::rectangle { other_axes.get_view_coordinates(m_view.x0),
+                                                other_axes.get_view_coordinates(m_view.x1) } };
+        }
+
         math::vec2 get_view_coordinates(math::vec2 source) const {
             using math::vec;
 

@@ -234,35 +234,59 @@ namespace gl {
         return this->glfw_window;
     }
 
-    static void key_press_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
-        // Unused for now (maybe in the future this could take advantage of them)
-        (void) scancode;
-        (void) mods;
+    static void key_press_callback(GLFWwindow* window, int key, int /* scancode */, int action, int /* mods */) {
+        // Unused for now (maybe in the future this could take advantage of them):
+        //     scancode & mods
             
         if (action == GLFW_PRESS || action == GLFW_REPEAT)
             window_mapping[window]->on_key_pressed((gl::key) key);
     }
 
-    static void mouse_press_callback(GLFWwindow* window, double xpos, double ypos) {
+    static void mouse_press_callback(GLFWwindow* window, double /* xpos */, double /* ypos */) {
         gl::window &current_window = *window_mapping[window];
 
-        // Get current window dimensions:
-        int width, height;
-        glfwGetWindowSize(current_window.get_glfw_window(), &width, &height);
-
-        if (xpos > current_window.width)
+        auto cursor = current_window.get_cursor_position();
+        if (!cursor) // cursor is outside window
             return;
+
+        current_window.on_mouse_moved(*cursor);
+    }
+
+    static void mouse_button_callback(GLFWwindow* window, int mouse, int button, int /* mods */) {
+        gl::window &current_window = *window_mapping[window];
+
+        auto cursor = current_window.get_cursor_position();
+
+        if (cursor) {
+            current_window.on_mouse_event(*cursor,
+                static_cast<gl::mouse_button>(mouse),
+                static_cast<gl::mouse_action>(button));
+        }
+
+        // TODO: Pool mouse position
+
+    }
+
+    std::optional<math::vec2> window::get_cursor_position() const {
+        double xpos, ypos;
+        glfwGetCursorPos(get_glfw_window(), &xpos, &ypos);
+
+        int width, height;
+        glfwGetWindowSize(get_glfw_window(), &width, &height);
+
+        if (xpos > this->width)
+            return {};
 
         ypos -= height;
-        ypos += current_window.width;
+        ypos += this->height;
 
         if (ypos < 0)
-            return;
+            return {};
 
-        current_window.on_mouse_moved({
-            static_cast<float>(xpos / (current_window.width / 2.0) - 1.0),
-            static_cast<float>(1.0 - ypos / (current_window.height / 2.0))
-        });
+        return math::vec {
+            static_cast<float>(xpos / (this->width  / 2.0) - 1.0),
+            static_cast<float>(ypos / (this->height / 2.0) - 1.0)
+        };
     }
 
     void window::draw_loop() {
@@ -270,6 +294,7 @@ namespace gl {
 
         glfwSetKeyCallback(this->glfw_window, &key_press_callback);
         glfwSetCursorPosCallback(this->glfw_window, &mouse_press_callback);
+        glfwSetMouseButtonCallback(this->glfw_window, &mouse_button_callback);
 
         static int fps_counter = 0;
 

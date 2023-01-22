@@ -26,4 +26,9 @@ namespace math {
         return value;
     }
 
+    template <typename type>
+    constexpr bool in_range(type value, std::type_identity_t<type> min, std::type_identity_t<type> max) {
+        return max >= value && value >= min;
+    }
+
 }

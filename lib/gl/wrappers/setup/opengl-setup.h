@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 
 #include <initializer_list>
+#include <optional>
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -193,11 +194,19 @@ namespace gl {
         MENU          = GLFW_KEY_MENU,
     };
 
-    class window {
-    private:
-        int current_fps;
-        GLFWwindow* glfw_window;
+    enum class mouse_button {
+        LEFT = GLFW_MOUSE_BUTTON_LEFT,
+        MIDDLE = GLFW_MOUSE_BUTTON_MIDDLE,
+        RIGHT = GLFW_MOUSE_BUTTON_RIGHT,
+    };
 
+    enum class mouse_action {
+        PRESS = GLFW_PRESS,
+        RELEASE = GLFW_RELEASE,
+        REPEAT = GLFW_REPEAT,
+    };
+
+    class window {
     public:
         const int width, height;
 
@@ -219,15 +228,19 @@ namespace gl {
 
         virtual void on_fps_updated() {};
 
-        virtual void on_key_pressed(key pressed_key) {
-            (void) pressed_key; // Ignore parameter
-        };
-
-        virtual void on_mouse_moved(math::vec2 cursor) {
-            (void) cursor; // Ignore parameter
-        }
+        virtual void on_key_pressed([[maybe_unused]] key pressed_key) {}
+        virtual void on_mouse_moved([[maybe_unused]] math::vec2 cursor) {}
+        virtual void on_mouse_event([[maybe_unused]] math::vec2 cursor,
+                                    [[maybe_unused]] gl::mouse_button button,
+                                    [[maybe_unused]] gl::mouse_action action){};
 
         virtual ~window();
+
+        std::optional<math::vec2> get_cursor_position() const;
+
+    private:
+        int current_fps;
+        GLFWwindow* glfw_window;
     };
 
     enum class drawing_type {
